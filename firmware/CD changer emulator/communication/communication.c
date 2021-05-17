@@ -46,8 +46,6 @@ volatile unsigned short LEDGreenPattern = 0;
 
 TimerHandle_t xTXTimer;
 
-//TODO: Podczas odbierania danych vwcdcpic ustawia ta zmienna na -4 i kazdy poczatkowy i ostatni bajt odpowiedzi zwieksza go o jeden, wartosci ujemne powoduje zmiane tych dwoch bajtów
-
 /*
 switch on in cd mode/radio to cd (play)
 0x53 0x2C 0xE4 0x1B
